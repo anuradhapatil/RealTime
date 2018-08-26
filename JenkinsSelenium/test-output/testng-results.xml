@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17798" started-at="2018-08-26T20:03:13Z" finished-at="2018-08-26T20:03:31Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="12204" started-at="2018-08-26T20:03:13Z" finished-at="2018-08-26T20:03:26Z">
+      <class name="TestCases.ParallelTestCases">
+        <test-method status="PASS" signature="first(java.lang.String, java.lang.String)[pri:0, instance:TestCases.ParallelTestCases@87f383f]" name="first" duration-ms="12187" started-at="2018-08-26T20:03:13Z" finished-at="2018-08-26T20:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.rediff.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- TestCases.ParallelTestCases -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="17798" started-at="2018-08-26T20:03:13Z" finished-at="2018-08-26T20:03:31Z">
+      <class name="TestCases.ParallelTestCases2">
+        <test-method status="PASS" signature="first(java.lang.String, java.lang.String)[pri:0, instance:TestCases.ParallelTestCases2@51c8530f]" name="first" duration-ms="17782" started-at="2018-08-26T20:03:13Z" finished-at="2018-08-26T20:03:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- TestCases.ParallelTestCases2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
