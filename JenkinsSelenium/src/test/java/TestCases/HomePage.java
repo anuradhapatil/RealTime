@@ -42,11 +42,46 @@ public class HomePage extends base{
 		obj.getLogin().sendKeys("selenium");
 		log.info("Entered text");
 		
-
+System.out.println("In First Test Method");
 
 		
 		}
 
+@Test()
+	
+	public void search1() throws IOException
+	{
+
+		//one is inheritance
+
+		// creating object to that class and invoke methods of it
+		driver.get(prop.getProperty("url"));
+		HomePageObjects obj = new HomePageObjects(driver);
+		obj.getLogin().sendKeys("selenium");
+		log.info("Entered text");
+		
+System.out.println("In Second Test method");
+
+		
+		}
+
+@Test()
+
+public void search2() throws IOException
+{
+
+	//one is inheritance
+
+	// creating object to that class and invoke methods of it
+	driver.get(prop.getProperty("url"));
+	HomePageObjects obj = new HomePageObjects(driver);
+	obj.getLogin().sendKeys("selenium");
+	log.info("Entered text");
+	
+System.out.println("In Third Test Method");
+
+	
+	}
 	@AfterTest
 	public void teardown()
 	{

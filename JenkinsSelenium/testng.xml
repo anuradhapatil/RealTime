@@ -5,7 +5,7 @@
 <listener class-name="resources.ExtentReporterNG"/>
 <listener class-name="TestCases.listeners"/>
 </listeners>
-  <test  name="Test">
+  <test  name="Test" parallel="methods">
     <classes>
       <class name="TestCases.HomePage"/>
     </classes>
