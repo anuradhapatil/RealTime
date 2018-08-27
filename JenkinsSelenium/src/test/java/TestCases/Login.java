@@ -22,7 +22,10 @@ public class Login {
    String host = "localhost";
    String port = "3306";
  Connection con = DriverManager.getConnection("jdbc:mysql://"+ host +":"+ port +"/SampleDB", "root","pasword1");
+ 
+
  Statement st = con.createStatement();
+ 
  ResultSet rs = st.executeQuery("select * from LoginCred");
  while(rs.next()) {
 	   System.setProperty("webdriver.chrome.driver","C:\\Users\\shpatil\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
@@ -42,11 +45,11 @@ public class Login {
 		 {
 	 
 	//con.prepareStatement("insert into LoginCred values('','','Invalid Credentials')");
-	 System.out.println("pass");
+	 System.out.println("fail");
 	 
 		 }
 	else {
-		System.out.println("Fail");
+		System.out.println("pass  polling");
 	
  		
 	}
