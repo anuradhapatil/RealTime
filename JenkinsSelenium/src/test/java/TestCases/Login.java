@@ -49,7 +49,7 @@ public class Login {
 	 
 		 }
 	else {
-		System.out.println("pass  polling");
+		System.out.println("pass SCM polling");
 	
  		
 	}
