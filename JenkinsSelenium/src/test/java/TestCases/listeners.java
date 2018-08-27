@@ -8,10 +8,10 @@ package TestCases;
 	import org.testng.ITestListener;
 	import org.testng.ITestResult;
 
-	import resources.base;
+	//import resources.base;
 
 	public class listeners implements ITestListener  {
-	base b=new base();
+	//base b=new base();
 		public void onFinish(ITestContext arg0) {
 			// TODO Auto-generated method stub
 			//hey i am done
@@ -31,12 +31,12 @@ package TestCases;
 			// TODO Auto-generated method stub
 			//screenshot
 
-			try {
+			/*try {
 				b.getScreenshot(result.getName());
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+			}*/
 		}
 
 		public void onTestSkipped(ITestResult arg0) {
@@ -49,9 +49,16 @@ package TestCases;
 			
 		}
 
-		public void onTestSuccess(ITestResult arg0) {
+		public void onTestSuccess(ITestResult result) {
 			// TODO Auto-generated method stub
-			
+			/*try {
+				b.getScreenshot(result.getName());
+				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}*/
+			System.out.println("success");
 		}
 
 	}

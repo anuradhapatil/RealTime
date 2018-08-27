@@ -1,0 +1,7 @@
+03:25:49.867 [TestNG] INFO  TestCases.ParallelTestCases - In chrome for log
+03:31:57.929 [TestNG] INFO  TestCases.ParallelTestCases2 - In IE for log
+03:32:04.545 [TestNG] INFO  TestCases.ParallelTestCases - In chrome for log
+03:36:14.868 [main] INFO  TestCases.ParallelTestCases - In chrome for log
+03:36:56.158 [main] INFO  TestCases.ParallelTestCases - In chrome for log
+03:40:07.555 [TestNG-tests-2] INFO  TestCases.ParallelTestCases2 - In IE for log
+03:40:13.004 [TestNG-tests-1] INFO  TestCases.ParallelTestCases - In chrome for log

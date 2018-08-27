@@ -17,7 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class base {
 
-	public static WebDriver driver;
+	public WebDriver driver;
 	public Properties prop;
 public WebDriver initializeDriver() throws IOException
 {
@@ -55,7 +55,7 @@ return driver;
 public void getScreenshot(String result) throws IOException
 {
 	File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(src, new File("C:\\WorkPractice\\"+result+"screenshot.png"));
+	FileUtils.copyFile(src, new File("C:\\Users\\shpatil\\git\\JenSel\\JenkinsSelenium\\screenshots\\"+result+" screenshot.png"));
 	
 }
 }

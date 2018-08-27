@@ -1,3 +1,2 @@
-01:00:49.684 [pool-2-thread-2] INFO  resources.base - Entered text
-01:00:49.791 [pool-2-thread-1] INFO  resources.base - Entered text
-01:00:49.890 [pool-2-thread-3] INFO  resources.base - Entered text
+03:43:52.414 [TestNG] INFO  TestCases.ParallelTestCases - In chrome for log
+03:44:59.483 [TestNG] INFO  TestCases.ParallelTestCases - In chrome for log
