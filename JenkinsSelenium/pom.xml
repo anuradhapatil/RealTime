@@ -69,10 +69,7 @@
             <directory>src/main/java/resources</directory>
             <filtering>true</filtering> 
         </resource>
-        <resource>
-            <directory>src/main/java/pageObjects</directory>
-            <filtering>true</filtering> 
-        </resource>
+        
     </resources>
   <plugins>
   					

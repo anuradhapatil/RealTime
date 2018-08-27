@@ -9,14 +9,15 @@ import java.sql.Statement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import pageObjects.LoginPage;
 
 
 
 public class Login {
-
-	public static void main(String[] args) throws SQLException, InterruptedException {
+@Test
+	public void databaseTesting() throws SQLException{
 		// TODO Auto-generated method stub
    String host = "localhost";
    String port = "3306";
