@@ -49,7 +49,7 @@ public class Login {
 	 
 		 }
 	else {
-		System.out.println("pass SCM polling");
+		System.out.println("pass SCM polling  and merging from other branch");
 	
  		
 	}
