@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test3(failed)" parallel="tests">
+    <classes>
+      <class name="TestMaven.CrossBrowserFF">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- TestMaven.CrossBrowserFF -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="TestMaven.CrossBrowserIE">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- TestMaven.CrossBrowserIE -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite"  thread-count="3" parallel="tests" >
+<listeners>
+<listener class-name="TestMaven.ExtentReporterNG"/>
+</listeners>
+  <test  name="Test1" >
     <classes>
-      <class name="TestMaven.SampleTest"/>
+      <class name="TestMaven.amazonEverything"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="TestMaven.CrossBrowserIE"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test3">
+    <classes>
+      <class name="TestMaven.CrossBrowserFF"/>
+    </classes>
+  </test> 
 </suite> <!-- Suite -->
