@@ -6,7 +6,7 @@ public class gitTrial {
 	
 	@Test
 	public void  start() {
-		  System.out.println("hello world12345");
+		  System.out.println("hello world  start");
 	}
 
 }
